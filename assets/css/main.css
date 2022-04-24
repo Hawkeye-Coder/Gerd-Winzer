@@ -1912,7 +1912,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 		.icon.fa-music{
-			color: #da6363;
+			color: #ffbe0b;
 		}
 		.icon.circle {
 			-moz-transition: all 0.2s ease-in-out;
@@ -2170,8 +2170,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #da6363;
-			border-color: #da6363;
+			background: #ffbe0b;
+			border-color: #ffbe0b;
 			color: #fff !important;
 		}
 
@@ -2180,8 +2180,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #8b8888 !important;
-				border-color: #8b8888 !important;
+				background: #001d3d !important;
+				border-color: #001d3d !important;
 			}
 
 		input[type="button"].fit,
@@ -2539,6 +2539,11 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#banner.venice{
+		background: url(/assets/css/images/Venezio\ Konzert2020.webp);
+		background-size: 100% auto;
+	}
+
 		#banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2595,7 +2600,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/*background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");*/
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
